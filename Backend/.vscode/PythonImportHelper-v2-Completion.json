@@ -1,0 +1,11 @@
+[
+    {
+        "label": "dict",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "dict = {\n    'message':'hi, i am developer'\n}\nprint(dict)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
