@@ -1,21 +1,28 @@
+import './assets/main.css'
+
 import { createApp } from 'vue'
 import App from './App.vue'
-import 'primeicons/primeicons.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import router from './router/routes'
+// import tooltip from './directives/tooltip'
+// import themeState from './stores/theme-state'
+import 'bootstrap-vue-3/dist/bootstrap-vue-3.css'
+import { BootstrapVue3 } from 'bootstrap-vue-3'
+// import tooltip from './directives/tooltip'
+// import PrimeVue from 'primevue/config'
+// import '@primevue/themes/lara'
 
-// Estilos globales
-// import '@/assets/styles/_base.scss'
-
-// PrimeVue
-import PrimeVue from 'primevue/config'
-import Button from 'primevue/button'
+// import 'primeicons/primeicons.css'
 
 
-
-// Crear instancia
 const app = createApp(App)
-
-app.use(PrimeVue)
-// Componentes PrimeVue
-app.component('Button', Button)
-// Montar app
+// app.directive('tooltip', tooltip)
+// app.use(router)
+// app.use(instanceI18n)
+app.use(BootstrapVue3)
+app.use(router)
+// app.use(themeState)
+// app.use(PrimeVue)
 app.mount('#app')
