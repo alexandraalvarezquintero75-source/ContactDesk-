@@ -12,3 +12,5 @@ class User(Base):
     email = Column(String(150), unique=True, nullable=False)
     phone_number = Column(String(20), nullable=True)
     password = Column(String(255), nullable=False)
+
+Base.metadata.create_all(bind=engine)
