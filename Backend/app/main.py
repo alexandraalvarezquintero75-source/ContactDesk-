@@ -1,10 +1,8 @@
 from fastapi import FastAPI
+from app.crud import user
 
 
 app = FastAPI()
 
-@app.get("/")
-async def root():
-    return{
-        'message':'hi, i am a developer'
-    }
+app.include_router(user)
+
