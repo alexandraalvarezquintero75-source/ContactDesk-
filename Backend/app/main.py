@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.crud import contacts
+from app.crud import contact
 from app.db import engine
 from app.models import Base
 
@@ -18,6 +18,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(contacts)
+app.include_router(contact)
 
 Base.metadata.create_all(bind=engine)
