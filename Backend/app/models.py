@@ -1,6 +1,6 @@
 from sqlalchemy import Column,Integer, String
 from sqlalchemy.orm import declarative_base
-from db import engine
+
 
 Base = declarative_base()
 class User(Base):
@@ -14,4 +14,3 @@ class User(Base):
     phone_number = Column(String(20), nullable=True)
     password = Column(String(255), nullable=False)
 
-Base.metadata.create_all(bind=engine)
