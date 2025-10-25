@@ -13,7 +13,6 @@
     
 <div class="d-flex flex-wrap gap-2">
 <AccionButtons
- @save="goForm"
 />
 </div>
     </div>
