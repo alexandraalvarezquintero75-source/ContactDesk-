@@ -39,14 +39,6 @@
             v-model="formUser.phone_number"
           />
         </div>
-        <div class="col-md-4">
-          <input
-            type="password"
-            class="form-control"
-            placeholder="Contraseña"
-            v-model="formUser.password"
-          />
-        </div>
       </div>
 
       <div class="row mb-3">
@@ -66,8 +58,7 @@ const formUser = ref({
   first_name: "",
   last_name: "",
   email: "",
-  phone_number: "",
-  password: "",
+  phone_number: ""
 });
 </script>
 
