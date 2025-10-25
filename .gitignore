@@ -1,0 +1,12 @@
+# ===== FRONTEND =====
+Frontend/node_modules/
+Frontend/.vite/
+Frontend/dist/
+Frontend/.env
+Frontend/.vscode/
+
+# ===== BACKEND =====
+Backend/__pycache__/
+Backend/.env
+Backend/.vscode/
+Backend/.pytest_cache/
