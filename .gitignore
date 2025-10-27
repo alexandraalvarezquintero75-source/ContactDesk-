@@ -1,12 +1,21 @@
-# ===== FRONTEND =====
-Frontend/node_modules/
-Frontend/.vite/
-Frontend/dist/
-Frontend/.env
-Frontend/.vscode/
+# Python
+*.pyc
+__pycache__/
 
-# ===== BACKEND =====
-Backend/__pycache__/
-Backend/.env
-Backend/.vscode/
-Backend/.pytest_cache/
+# Entorno Virtual
+venv/
+.venv/
+env/
+pip-log.txt
+.Python
+.tox/
+
+# Bases de Datos y Logs
+*.sqlite3
+*.db
+*.log
+
+# Editores y Sistema
+.vscode/
+.DS_Store
+Thumbs.db
