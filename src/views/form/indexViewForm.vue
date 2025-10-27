@@ -12,8 +12,7 @@
 </TitleHeader>
     
 <div class="d-flex flex-wrap gap-2">
-<AccionButtons
-/>
+<AccionButtons @create="goForm" />
 </div>
     </div>
 </div>

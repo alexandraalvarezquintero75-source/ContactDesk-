@@ -1,10 +1,10 @@
 <template>
   <div class="d-flex justify-content-end">
-    <BaseButton
-      class="btn-circle text-success hover-success"
-      icon="bi bi-save"
-      @click="$emit('save', entityId)"
-    >
+  <BaseButton
+  class="btn-circle text-success hover-success"
+  icon="bi bi-plus-circle"
+  @click="$emit('create')"
+>
     </BaseButton>
 
     <BaseButton
