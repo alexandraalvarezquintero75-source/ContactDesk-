@@ -1,0 +1,21 @@
+# Python
+*.pyc
+__pycache__/
+
+# Entorno Virtual
+venv/
+.venv/
+env/
+pip-log.txt
+.Python
+.tox/
+
+# Bases de Datos y Logs
+*.sqlite3
+*.db
+*.log
+
+# Editores y Sistema
+.vscode/
+.DS_Store
+Thumbs.db
